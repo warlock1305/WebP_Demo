@@ -1,0 +1,94 @@
+    [
+      {
+        "id": 1,
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Dystopian",
+        "price": 4.00,
+        "cover_image": "assets/1984cover.jpg",
+        "img_alt": "1984cover"
+      },
+      {
+        "id": 2,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "price": 18.00,
+        "cover_image": "assets/HarryPottercover.jpg",
+        "img_alt": "HarryPottercover.jpg"
+      },
+      {
+        "id": 3,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Classic",
+        "price": 12.00,
+        "cover_image": "assets/ToKillAMockingbirdcover.jpg",
+        "img_alt": "ToKillAMockingbirdcover"
+      },
+      {
+        "id": 4,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Classic",
+        "price": 10.00,
+        "cover_image": "assets/TheGreatGatsbycover.jpg",
+        "img_alt": "TheGreatGatsbycover"
+      },
+      {
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "genre": "Romance",
+        "price": 8.00,
+        "cover_image": "assets/PrideAndPrejudicecover.jpg",
+        "img_alt": "Pride and Prejudice cover"
+      },
+      {
+        "id": 6,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Classic",
+        "price": 9.00,
+        "cover_image": "assets/TheCatcherInTheRyecover.jpg",
+        "img_alt": "TheCatcherInTheRyecover"
+      },
+      {
+        "id": 7,
+        "title": "Lord of the Flies",
+        "author": "William Golding",
+        "genre": "Adventure",
+        "price": 11.00,
+        "cover_image": "assets/LordOfTheFliescover.jpg",
+        "img_alt": "LordOfTheFliescover"
+      },
+      {
+        "id": 8,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "price": 14.00,
+        "cover_image": "assets/TheHobbitcover.jpg",
+        "img_alt": "TheHobbitcover"
+      },
+      {
+        "id": 9,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "genre": "Adventure",
+        "price": 13.00,
+        "cover_image": "assets/MobyDickcover.jpg",
+        "img_alt": "MobyDickcover"
+      },
+      {
+        "id": 10,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "genre": "Science Fiction",
+        "price": 10.50,
+        "cover_image": "assets/BraveNewWorldcover.jpg",
+        "img_alt": "BraveNewWorldcover"
+      }
+    ]
+  
+  

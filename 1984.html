@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>1984 Book Details</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        /* Styles for the content wrapper */
+        .content-wrapper {
+            margin-top: 0px;
+            padding-top: 1vh;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 600px;
+            margin: 0 auto;
+            padding-bottom: 2vh;
+        }
+        /* Styles for the card images */
+        .content-wrapper .card img {
+            max-height: 25vw;
+            min-width: 100%;
+            width: auto;
+        }
+        /* Styles for the scrollable cards container */
+        .content-wrapper .scrollable-cards-container {
+            overflow-x: auto;
+            white-space: nowrap;
+            width: 100%;
+        }
+        /* Styles for individual cards within the scrollable container */
+        .content-wrapper .scrollable-cards-container .card {
+            display: inline-block;
+            flex: 0 0 auto;
+            margin-right: 10px; /* Adjust spacing between cards */
+        }
+        /* Adjustments for the price card */
+        .price-card {
+            min-width: fit-content;
+            display: flexbox;
+        }
+        .content-wrapper navbar .container{
+            width: 100%;
+        }
+        .bg-img{
+            background: none;
+            background-image: url(assets/woodentexture.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-img">
+        <div class="row">
+            <div class="col">
+                <!-- Content wrapper with class -->
+                <div class="content-wrapper bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container px-4 px-lg-5">
+                            <a class="navbar-brand" href="index.html">Book Store</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                                </ul>                   
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <img src="assets/1984cover.jpg" alt="">
+                        </div>
+                    </div>
+                    <header class="bg-transparent py-2">
+                        <div class="container px-4 px-lg-4 my-0">
+                        </div>
+                    </header>
+                    <div class="container mt-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4 class="card-title">Book Details</h4>
+                                        <ul class="list-unstyled">
+                                            <li><strong>Title:</strong> 1984</li>
+                                            <li><strong>Author:</strong> George Orwell</li>
+                                            <li><strong>Genre:</strong> Dystopian Fiction</li>
+                                            <li><strong>Published:</strong> June 8, 1949</li>
+                                            <li><strong>Pages:</strong> 328</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4 class="card-title">About the Author</h4>
+                                        <p class="card-text">George Orwell was an English novelist, essayist, journalist, and critic. His work is characterized by lucid prose, biting social criticism, and acute observations of politics and society. He is best known for the dystopian novel "1984" and the allegorical novella "Animal Farm".</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Price card with class -->
+                    <div class="price-card container-fluid">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Price: 4$</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a class="btn btn-outline-dark mt-auto" href="#">Add to Cart</a>
+                    </div>
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4>You might also like</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col scrollable-cards-container">
+                                <div class="card">
+                                    <a href="Decoy.html" target="_blank">
+                                        <img class="card-img-top" src="assets/HarryPottercover.jpg" alt="1984 Cover" />
+                                    </a>
+                                </div>
+                                <div class="card">
+                                    <a href="Decoy.html" target="_blank">
+                                        <img class="card-img-top" src="assets/HarryPottercover.jpg" alt="Book 2 Cover" />
+                                    </a>
+                                </div>
+                                <div class="card">
+                                    <a href="Decoy.html" target="_blank">
+                                        <img class="card-img-top" src="assets/HarryPottercover.jpg" alt="Book 3 Cover" />
+                                    </a>
+                                </div>
+                                <div class="card">
+                                    <a href="Decoy.html" target="_blank">
+                                        <img class="card-img-top" src="assets/HarryPottercover.jpg" alt="Book 3 Cover" />
+                                    </a>
+                                </div>
+                                <div class="card">
+                                    <a href="Decoy.html" target="_blank">
+                                        <img class="card-img-top" src="assets/HarryPottercover.jpg" alt="Book 3 Cover" />
+                                    </a>
+                                </div>
+                                <!-- Add more cards as needed -->
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
