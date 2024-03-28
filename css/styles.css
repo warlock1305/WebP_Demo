@@ -11321,3 +11321,10 @@ body {
   flex-direction: row;
   align-items: center;
 } 
+
+/* Custom CSS to set fixed height for image container */
+.card.book .card-img-top {
+  height: 300px;
+  width: 100%; /* Ensure the image covers the entire width */
+  object-position: center top; /* Center the image horizontally and align it to the top vertically */
+}
